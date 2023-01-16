@@ -1,0 +1,59 @@
+layout: sidebar
+  # layout options:
+  #    - stacked
+style: light
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 9
+  exclude:
+    archived: false
+    forks: true
+    projects: andrewyu6581
+    # - repo-name
+
+social_media:
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # keybase: your_username
+  # linkedin: andrewyu6581
+  # medium: your_username
+  # stackoverflow: your_user_id
+  # telegram: your_username
+  # twitter: your_username
+  # unsplash: misosnaps
+  # vk: your_username
+  # website: http://your_website_url
+  # youtube: your_username
+
+topics:
+  - name: linkedin
+    web_url: https://www.linkedin.com/in/andrewyu6581/
+    image_url: 
+  - name: unsplash
+    web_url: https://unsplash.com/@misosnaps
+    image_url: 
+  - name: spotify
+    web_url: https://open.spotify.com/user/kpcgwargh8ki5v6s0zt5kn9ha?si=d074f1050e124b3d
+    image_url: 
